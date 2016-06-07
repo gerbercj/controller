@@ -1,0 +1,51 @@
+Name = "MDErgo1";
+Layout = "Default";
+Base = "Gerb";
+Version = "0.1";
+Author = "HaaTa (Jacob Alexander) 2015";
+KLL = "0.3c";
+Date = "2015-09-12";
+Generator = "KIICONF 0.2";
+
+U"EQUALS" : flashMode();
+U"7" : U"NUMLOCK";
+U"8" : U"P/";
+U"9" : U"P*";
+U"0" : U"P-";
+U"U" : U"P7";
+U"I" : U"P8";
+U"O" : U"P9";
+U"P" : U"P+";
+U"J" : U"P4";
+U"K" : U"P5";
+U"L" : U"P6";
+U"SEMICOLON" : U"P+";
+U"M" : U"P1";
+U"COMMA" : U"P2";
+U"PERIOD" : U"P3";
+U"SLASH" : U"PENTER";
+U"SPACE" : U"P0";
+U"UP" : U"P.";
+U"RIGHT" : U"PENTER";
+
+U"Q" : mouseOut( 1, 0, 0 );
+U"E" : mouseOut( 2, 0, 0 );
+U"Z" : mouseOut( 3, 0, 0 );
+U"X" : mouseOut( 4, 0, 0 );
+U"C" : mouseOut( 5, 0, 0 );
+
+U"S" : mouseOut( 0, 0, 2 );
+U"W" : mouseOut( 0, 0, -2 );
+U"A" : mouseOut( 0, -2, 0 );
+U"D" : mouseOut( 0, 2, 0 );
+
+U"S"+U"LGUI" : mouseOut( 0, 0, 16 );
+U"W"+U"LGUI" : mouseOut( 0, 0, -16 );
+U"A"+U"LGUI" : mouseOut( 0, -16, 0 );
+U"D"+U"LGUI" : mouseOut( 0, 16, 0 );
+
+U"S"+U"RGUI" : mouseOut( 0, 0, 16 );
+U"W"+U"RGUI" : mouseOut( 0, 0, -16 );
+U"A"+U"RGUI" : mouseOut( 0, -16, 0 );
+U"D"+U"RGUI" : mouseOut( 0, 16, 0 );
+
