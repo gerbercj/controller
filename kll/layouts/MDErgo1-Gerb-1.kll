@@ -25,10 +25,10 @@ U"J" : U"DOWN";
 U"K" : U"UP";
 U"L" : U"RIGHT";
 
-U"S" : U"LEFT";
-U"D" : U"DOWN";
-U"E" : U"UP";
-U"F" : U"RIGHT";
+U"W" : U"UP";
+U"A" : U"LEFT";
+U"S" : U"DOWN";
+U"D" : U"RIGHT";
 
 U"FUNCTION1" : U"LSHIFT"+U"9";
 U"LBRACE" : U"LSHIFT"+U"0";
