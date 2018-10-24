@@ -7,7 +7,8 @@ KLL = "0.3c";
 Date = "2015-09-12";
 Generator = "KIICONF 0.2";
 
-U"EQUALS" : flashMode();
+U"LGUI" : flashMode();
+
 U"7" : U"NUMLOCK";
 U"8" : U"P/";
 U"9" : U"P*";
@@ -39,13 +40,15 @@ U"W" : mouseOut( 0, 0, -2 );
 U"A" : mouseOut( 0, -2, 0 );
 U"D" : mouseOut( 0, 2, 0 );
 
-U"S"+U"LGUI" : mouseOut( 0, 0, 16 );
-U"W"+U"LGUI" : mouseOut( 0, 0, -16 );
-U"A"+U"LGUI" : mouseOut( 0, -16, 0 );
-U"D"+U"LGUI" : mouseOut( 0, 16, 0 );
+U"S"+U"LSHIFT" : mouseOut( 0, 0, 16 );
+U"W"+U"LSHIFT" : mouseOut( 0, 0, -16 );
+U"A"+U"LSHIFT" : mouseOut( 0, -16, 0 );
+U"D"+U"LSHIFT" : mouseOut( 0, 16, 0 );
 
-U"S"+U"RGUI" : mouseOut( 0, 0, 16 );
-U"W"+U"RGUI" : mouseOut( 0, 0, -16 );
-U"A"+U"RGUI" : mouseOut( 0, -16, 0 );
-U"D"+U"RGUI" : mouseOut( 0, 16, 0 );
+U"S"+U"RSHIFT" : mouseOut( 0, 0, 16 );
+U"W"+U"RSHIFT" : mouseOut( 0, 0, -16 );
+U"A"+U"RSHIFT" : mouseOut( 0, -16, 0 );
+U"D"+U"RSHIFT" : mouseOut( 0, 16, 0 );
+
+U"RGUI" : U"LCK2";
 
