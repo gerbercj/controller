@@ -30,19 +30,19 @@
 // You can change these to give your code its own name.
 #define STR_MANUFACTURER        L"Kiibohd"
 #define STR_PRODUCT             L"Keyboard - MDErgo1 PartialMap pjrcUSB full"
-#define STR_SERIAL              L"Dirty master - 2016-06-06 20:31:40 -0400"
+#define STR_SERIAL              L"Dirty feature/20181024Ergodox - 2018-10-24 19:49:58 -0400"
 
 
 // Strings used in the CLI module
-#define CLI_Revision            "37c5c176b6051a92ee67a60f37ddb2c147d5b49a"
-#define CLI_Branch              "master"
+#define CLI_Revision            "ec99a73684a54bca392356d82b20d1808e780276"
+#define CLI_Branch              "feature/20181024Ergodox"
 #define CLI_ModifiedStatus      "Dirty"
-#define CLI_ModifiedFiles       "\r\n\tkll/layouts/MDErgo1-Gerb-0.kll\r\n\tkll/layouts/MDErgo1-Gerb-2.kll"
+#define CLI_ModifiedFiles       "\r\n\tkll/layouts/MDErgo1-Gerb-0.kll"
 #define CLI_RepoOrigin          "https://github.com/kiibohd/controller.git"
-#define CLI_CommitDate          "2016-06-06 20:31:40 -0400"
+#define CLI_CommitDate          "2018-10-24 19:49:58 -0400"
 #define CLI_CommitAuthor        "Chris Gerber <christopher.gerber@regeneron.com>"
 #define CLI_Modules             "Scan(MDErgo1) Macro(PartialMap) Output(pjrcUSB) Debug(full)"
-#define CLI_BuildDate           "2018-10-17 22:31:06 -0400"
+#define CLI_BuildDate           "2018-10-25 21:12:27 -0400"
 #define CLI_BuildOS             "Darwin-17.7.0"
 #define CLI_Arch                "arm"
 #define CLI_Chip                "mk20dx256vlh7"
